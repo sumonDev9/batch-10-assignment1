@@ -23,6 +23,30 @@ body{
     font-weight: 600;
 }
 
+/* shared style  */
+.heading-text{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.heading-text .title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+ }
+
+ .heading-text .sub-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
 /** header style Start here **/
 
 nav{
@@ -131,36 +155,11 @@ nav{
     width: 946px;
     height: 1235px;
 }
- .web-dev-content .heading-text{
-    width: 852px;
-    height: 115px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 48px;
-}
-
- .web-dev-content .heading-text .title{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 24px;
- }
-
- .web-dev-content .heading-text .sub-title{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
-}
-
 .web-dev-content .web-box-container{
     
     height: 336px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    /*  */
     padding: 48px;
     margin-bottom: 32px;
 }
@@ -170,12 +169,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid red; */
 }
 .web-dev-content .web-box-container .web-box .web-content{
     width: 60%;
     height: 220px;
-    /* border: 1px solid green; */
 }
 .web-box-container .web-box .web-content .title{
     color: rgba(13, 19, 33, 0.7);
@@ -200,3 +197,24 @@ nav{
     height: 100%;
 }
 /** development-container style end here **/
+
+/** inspiration-section style start here **/
+.inspiration-section{
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.inspiration-section .inspiration-video{
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+ .inspiration-video iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+ }
+/** inspiration-section style End here **/
