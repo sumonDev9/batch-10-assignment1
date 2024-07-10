@@ -303,3 +303,62 @@ nav{
     gap: 24px;
     padding: 40px;
 }
+/** my next target section  style end here **/
+
+/** I need support section style start here **/
+.support-container{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 49px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 64px 48px;
+}
+.support-container .support-content{
+    width: 1044px;
+    height: 185px;
+    text-align: center;
+}
+.support-container .support-content .title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.support-container .support-content .subtitle{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.support-container .support-content input[type="text"]{
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 0 12px;
+    color: rgba(13, 19, 33, 0.5);
+    font-size: 18px;
+    outline: none;
+    margin-right:16px ;
+}
+.support-container .support-content input[type="submit"]{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+/** I need support section style End here **/
+
+/* footersection */
